@@ -66,7 +66,7 @@ After this step, you can see requests is showing in mitmproxy UI like this:
 
 I have an iOS application using [TMDP API](https://developer.themoviedb.org/reference/intro/getting-started) which looks like this:
 
-[<img src="ios-app.png" width="250"/>](ios-app.png)
+[<img src="./ios-app.png" width="250"/>](ios-app.png)
 
 Now, I want to view HTTP requests in mitmproxy. The next step is to install the certificate on the simulator:
 
@@ -74,15 +74,15 @@ Now, I want to view HTTP requests in mitmproxy. The next step is to install the 
 2. Visit the mitm.it page and dowload certificate
 3. Install and trust this certificate.
 
-[<img src="certificates.png" width="250"/>](certificates.png)
-[<img src="install.png" width="250"/>](install.png)
-[<img src="trust.png" width="250"/>](install.png)
+[<img src="./certificates.png" width="250"/>](certificates.png)
+[<img src="./install.png" width="250"/>](install.png)
+[<img src="./trust.png" width="250"/>](install.png)
 
 Now, open the application to trigger an API call, and the requests will be displayed in mitmproxy:
 
-[<img src="requests.png"/ width="700">](requests.png)
+[<img src="./requests.png"/ width="700">](requests.png)
 
-[<img src="request-detail.png"/ width="700">](requests.png)
+[<img src="./request-detail.png"/ width="700">](requests.png)
 
 ## Modifying Responses based on JSON Configuration
 
@@ -148,7 +148,7 @@ Create a JSON configuration file specifying rules for response modifications:
 
 Let open my movie app and click to `The Hunger Games: The Ballad of Songbirds & Snakes` movie, this screen looks like that:
 
-[<img src="movie-detail-1.png"/ width="250">](movie-detail-1.png)
+[<img src="./movie-detail-1.png"/ width="250">](movie-detail-1.png)
 
 Next, I created a configuration file like this:
 
@@ -166,7 +166,7 @@ I then modified the title of the movie in the movie-detail.json file:
 
 Let's open the app again and check:
 
-[<img src="movie-detail-2.png"/ width="250">](movie-detail-2.png)
+[<img src="./movie-detail-2.png"/ width="250">](movie-detail-2.png)
 
 Great, the title has been changed!
 
