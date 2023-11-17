@@ -80,9 +80,9 @@ Now, I want to view HTTP requests in mitmproxy. The next step is to install the 
 
 Now, open the application to trigger an API call, and the requests will be displayed in mitmproxy:
 
-[<img src="./requests.png"/ width="700">](requests.png)
+[<img src="./requests.png" width="700" />](requests.png)
 
-[<img src="./request-detail.png"/ width="700">](requests.png)
+[<img src="./request-detail.png" width="700" />](requests.png)
 
 ## Modifying Responses based on JSON Configuration
 
@@ -148,7 +148,7 @@ Create a JSON configuration file specifying rules for response modifications:
 
 Let open my movie app and click to `The Hunger Games: The Ballad of Songbirds & Snakes` movie, this screen looks like that:
 
-[<img src="./movie-detail-1.png"/ width="250">](movie-detail-1.png)
+[<img src="./movie-detail-1.png" width="250"/>](movie-detail-1.png)
 
 Next, I created a configuration file like this:
 
@@ -166,7 +166,7 @@ I then modified the title of the movie in the movie-detail.json file:
 
 Let's open the app again and check:
 
-[<img src="./movie-detail-2.png"/ width="250">](movie-detail-2.png)
+[<img src="./movie-detail-2.png" width="250" />](movie-detail-2.png)
 
 Great, the title has been changed!
 
